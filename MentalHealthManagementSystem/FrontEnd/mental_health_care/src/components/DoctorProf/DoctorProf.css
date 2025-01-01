@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Josefin Sans',sans-serif;
+}
+body{
+/* background: linear-gradient(to right, #2c5364, #203a43, #0f2027); */
+background-color: #313e4f;
+}
+.pcenter{
+display: flex;
+justify-content: left;
+align-items: center;
+
+}
+.pmain{
+    margin-top: 50px;
+height: 70vh;
+}
+.pbox{
+width: 350px;
+height: 350px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.288) ;
+border-radius:23px;
+flex-direction: column;
+color: white;
+position: relative;
+overflow: hidden;
+background-color: #dcdcdc;
+}
+.pbox img{
+    width: 180px;
+    height: 180px;
+    border-radius:50px;
+    }
+    .puser_name{
+    margin-bottom: 5px;
+    font-size: 2rem;
+    }
+    .pskill{
+    color: rgba(255, 255, 255, 0.555) ;
+    }
+    
+    .parr_container, .pcancel{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: white;
+    bottom: 0;
+    right: 0;
+    border-radius: 23px 0 23px 0;
+    color: rgb(70, 70, 70);
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .4s;
+    }
+    /* .parr_container i{
+    /* transform: rotate(-15deg); */
+     
+    .pactive_arr{
+    transform: translate(80%, 80%);
+    }
+    .pleft_container{
+        position: absolute;
+        background: #0f2027;
+        width: 100%;
+        height: 100%;
+        border-radius:23px;
+        padding: 40px 0 0 20px;
+        transition: all .4s;
+        }
+        .off{
+        transform: translate(-80%,-80%) rotate(90deg);
+        }
+        .pactive{
+        transform: translate(0) rotate(0);
+        }
+        .pleft_container p{
+        margin-bottom:15px;
+        font-size: 1.2rem;
+        }
+        .pleft_container .pskills div{
+        display: inline-block;
+        color: rgb(155, 155, 155);
+        border: 1px solid rgb(155, 155, 155);
+        padding: 5px 10px;
+        font-size: .9rem;
+        margin: 4px 4px 4px 0;
+        }
+        .pleft_container .picons{
+            font-size: 1.6rem;
+            margin-top: 10px;
+            }
+            .pleft_container .picons i{
+            color: #cfcfcf;
+            cursor: pointer;
+            margin-right: 10px;
+            transition: all .4s;
+            }
+            .peft_container .picons i:hover{
+            color: #2c5364;
+            }
+
+.dp{
+    padding: 1px 50px 1px 50px;
+}
+
+.dc{
+    margin-top: 10px;
+}
+
+.dpro-edit{
+    color: #f5f5f5;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.drop-st{
+    border : 1px solid;
+    border-radius: 50%; 
+    
+}
+
+

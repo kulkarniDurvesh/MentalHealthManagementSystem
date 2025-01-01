@@ -1,0 +1,86 @@
+
+.binner-layer{
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background-color: #313e4f;
+	overflow: auto;
+}
+.bform-data{
+	margin-top: 10%;
+	background-color: #FFF;
+	
+}
+.bform-body{
+	padding: 15px;
+}
+.bform-head{
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+}
+.bform-head h2{
+	font-size: 22px;
+	font-weight: 600;
+}
+.bno-margin{
+	margin: 0px;
+}
+
+/* .bform-row{
+	/* margin-bottom: 5px; */
+/* }  */
+.bform-control{
+	background-color: #f7f7ff;
+	border-radius: 0px;
+
+}
+.bform-control:focus{
+	box-shadow: none;
+	border: 3px solid #138496;
+}
+.bbtn-appointment{
+	background-color: #138496 !important;
+	border-color: #138496 !important;
+	width: 80%;
+	margin-left: 36px;
+}
+.bcontent{
+	margin-top: 15%;
+	text-align: center;
+	color: #FFF;
+	padding: 30px;
+}
+.bcontent h1{
+	font-weight: 600;
+	font-size: 3.5rem;
+}
+.bcontent h2{
+	font-weight: 600;
+	font-size:2.5rem;
+	margin-top: 20px;
+}
+.bcontent p{
+	font-size: 22px;
+	margin-top: 20px;
+}
+.datepicker td, .datepicker th{
+	padding: 5px;
+}
+.dropdown-menu.datepicker{
+	max-width: 300px !important;
+}
+
+
+@media screen and (max-width: 976px){
+	
+}
+
+.batc{
+	color: white;
+}
+
+.baspan{
+	color: red;
+	font-weight: bold;
+}
+

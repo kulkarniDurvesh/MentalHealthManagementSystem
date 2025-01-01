@@ -1,0 +1,37 @@
+.febtn{
+    color:aliceblue;
+    text-align: center;
+    margin-top: 80px;
+}
+.qbcss{
+    margin-left: 10px;
+    padding-bottom: 2px;
+    padding-top: 10px;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 280px;
+}
+
+.qbborder{
+
+    text-align: center;
+    padding-bottom: 8px;
+    
+}
+.qcbtn{
+    padding-left: 2%;
+    margin-left: 2%;
+
+}
+
+.qctitle{
+    font-size: 50px;
+}
+
+.rsbtn{
+    margin-left: 30%;
+}
+.cptable{
+    /* margin-left: -200px; */
+    width:90%;
+}

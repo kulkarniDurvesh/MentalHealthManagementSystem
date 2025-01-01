@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+/* custom colors  */
+
+
+:root {
+  --bgcolor: #f1f5fd;
+  --primary-color: #2a825d;
+  --text-color: #828682;
+  --main-text-color: #333333;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+} */
+
+#title{
+  font-weight: bolder;
+  color: cyan;
+  text-align: center;
+  padding-top: 2%;
+  font-size: xx-large;
+ 
+ 
+}
+
+/* --------------------------------- Hero sEction  starts  
+
+-------------------------------------------------------*/
+
+header {
+  background-color: var(--bgcolor);
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+.main-hero-container {
+  height: 80vh;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.main-hero-container h1 {
+  text-transform: capitalize;
+  font-weight: bolder;
+  
+}
+
+.main-hero-para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 2rem 0 2rem 0;
+  font-weight: lighter;
+  width: 75%;
+}
+
+.main-hero-container h3 {
+  font-weight: lighter;
+}
+
+.input-group {
+  position: relative !important;
+}
+
+.form-control-text {
+  position: absolute;
+  height: 5rem;
+  border: none;
+  outline-style: none;
+  padding-left: 1.5rem !important;
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+.input-group-button {
+  position: absolute;
+  right: 51%;
+  top: 0.5rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  height: 4rem;
+  width: 15%;
+  border-radius: 2rem !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+/* right side of hero section  */
+
+.main-herosection-images {
+  position: relative;
+}
+
+.main-herosection-images img {
+  width: 60%;
+  height: 75%;
+  margin-top: 10rem;
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+  position: absolute;
+}
+
+.main-herosection-images .main-hero-img2 {
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  left: 55%;
+  top: -2%;
+  box-shadow: 0.8rem 0 0.8rem rgba(0, 0, 0, 0.25);
+}
+
+/* --------------------------------- Hero sEction  ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Contact US Section starts  
+                        -------------------------------------------------------*/
+.contactus-section {
+  margin: 5rem 0;
+
+}
+
+.contact-leftside img {
+  min-width: 80%;
+  max-height: 30rem;
+  height: auto;
+}
+
+.contact-input-feild {
+  margin-bottom: 1rem;
+  margin-top: 1%;
+  
+}
+
+.contact-rightside form .form-control {
+  border: 1px solid #efe221;
+  -webkit-appearance: none;
+  height: 4rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+.contact-rightside form .form-check-input {
+  width: 2rem;
+  height: 2rem;
+}
+
+.form-checkbox-style {
+  margin: 2rem 2rem;
+ 
+
+}
+
+.contact-rightside form .main-hero-para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 0;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 2rem;
+}
+/* --------------------------------- Contact US Section ends  
+                        -------------------------------------------------------*/
+                       
+/* Button */
+.buttton-contact {
+    padding: 10px 20px;
+    border: unset;
+    border-radius: 8px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    margin-left: 40%;
+    font-size: larger;
+    
+   }
+   
+   .buttton-contact:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    background-color: #0cf7b1;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .buttton-contact:hover {
+    color: #e8e8e8;
+   }
+   
+   .buttton-contact:hover:before {
+    width: 100%;
+   }

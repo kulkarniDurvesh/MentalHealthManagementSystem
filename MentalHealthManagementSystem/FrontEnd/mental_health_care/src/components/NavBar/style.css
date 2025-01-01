@@ -1,0 +1,240 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
+/* ================================ Basic CSS =============================== */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Work Sans' , sans-serif;
+  overflow-x: hidden; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px; }
+
+ul, ol {
+  margin: 0px;
+  padding: 0px; }
+
+h2 {
+  color: #313e4f; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+@media screen and (max-width: 1199px) {
+  .container {
+    max-width: 100%; }
+
+   }
+.container {
+  max-width: 1170px; }
+  @media screen and (max-width: 575px) {
+    .container {
+      padding: 10px 15px;
+      max-width: 100%;
+      width: 100%; } }
+
+/* ================================ Header CSS =============================== */
+
+.navbar-custom {
+  background: #2d384a;
+}
+.top-nav {
+  position: relative;
+  visibility: visible;
+  overflow: hidden;
+  z-index: 2;
+  background: #2d384a;
+  padding: 20px 0px; }
+  .top-nav .top-sec {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    color: #fff; }
+    .top-nav .top-sec ol li {
+      position: relative;
+      display: inline-block;
+      padding: 0 20px 0 30px;
+      color: #fff;
+      margin: 0 15px 0 0;
+      border-right: 1px solid #939393; }
+      .top-nav .top-sec ol li i {
+        position: absolute;
+        left: 0;
+        color: #e1ad3d;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%; }
+      .top-nav .top-sec ol li span {
+        display: block;
+        font-size: 13px;
+        color: #939393;
+        font-weight: 600; }
+  .top-nav .logo {
+    display: inline-block;
+    color: #fff; }
+    .top-nav .logo h1 {
+      line-height: 35px;
+      position: relative;
+      font-size: 26px;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+      margin: 2px 0px; }
+      .top-nav .logo h1::after {
+        position: absolute;
+        content: "";
+        width: 97%;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        background: #e1ad3d; }
+      .top-nav .logo h1::before {
+        position: absolute;
+        content: "";
+        width: 97%;
+        top: 0;
+        bottom: 0;
+        height: 2px;
+        background: #e1ad3d; }
+  .top-nav .top-sec-main {
+    display: flex;
+    justify-content: flex-end; }
+    .top-nav .top-sec-main .top-sec-2 {
+      display: flex;
+      align-items: center; }
+      @media screen and (max-width: 991px) {
+        .top-nav .top-sec-main .top-sec-2 {
+          display: none; } }
+      .top-nav .top-sec-main .top-sec-2 ol .last {
+        border: none !important; }
+      .top-nav .top-sec-main .top-sec-2 ol li {
+        display: inline-block;
+        border-right: 1px solid #939393;
+        padding: 9.5px 20px 9.5px 30px; }
+        .top-nav .top-sec-main .top-sec-2 ol li i {
+          color: #fff;
+          font-size: 20px; }
+  @media screen and (max-width: 768px) {
+    .top-nav {
+      display: none; } }
+
+@media screen and (max-width: 768px) {
+  ._main_nav .nav {
+    padding: 10px; } }
+@media screen and (max-width: 768px) {
+  ._main_nav .logo-01 {
+    padding-left: 10px; }
+    ._main_nav .logo-01 h1 {
+      font-size: 2rem !important; } }
+
+/* ================================ Slider CSS =============================== */
+.slider {
+  /*background: url(../images/slider.jpg);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0px;
+  position: relative;
+  overflow: hidden; 
+}
+  .slider .slider-content-main {
+    position: relative;
+    padding: 100px 0px;
+    text-align: center; }
+    .slider .slider-content-main .btn-01 {
+      position: relative;
+      margin: 20px 0px;
+      z-index: 9; }
+      .slider .slider-content-main .btn-01 a {
+        padding: 10px;
+        color: #e1ad3d;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 500;
+        border: 1px solid #e1ad3d; }
+        @media screen and (max-width: 576px) {
+          .slider .slider-content-main .btn-01 a {
+            display: block;
+            margin: 10px 0px; } }
+        .slider .slider-content-main .btn-01 a:hover {
+          color: #ececec;
+          background-color: #e1ad3d; }
+    .slider .slider-content-main h2 {
+      padding: 20px 0px 30px 0;
+      color: #fff;
+      font-size: 40px;
+      font-weight: 400;
+      border-bottom: 1px solid #939393; }
+      @media screen and (max-width: 576px) {
+        .slider .slider-content-main h2 {
+          font-size: 30px; } }
+    .slider .slider-content-main p {
+      padding: 30px 0px;
+      margin: 0px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase; }
+      .slider .slider-content-main p span {
+        color: #fff;
+        font-size: 22px;
+        margin: 0 20px; }
+    .slider .slider-content-main ol li {
+      margin: 20px 0px; }
+      .slider .slider-content-main ol li i {
+        color: #e1ad3d;
+        font-size: 40px;
+        font-weight: 600; }
+    @media screen and (max-width: 576px) {
+      .slider .slider-content-main {
+        padding: 0px; } }
+  .slider::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(45, 56, 74, 0.9);
+    height: 100%; }
+  @media screen and (max-width: 576px) {
+    .slider {
+      padding: 20px 0px; } }
+
+.logo-01 {
+  position: absolute;
+  font-size: 25px;
+  color: #fff; }
+  @media screen and (min-width: 768px) {
+    .logo-01 {
+      display: none; } }
+
+@media screen and (max-width: 576px) {
+  .bg-01::before {
+    width: 100% !important; } }
+
+@media screen and (max-width: 576px) {
+  .bg-01 {
+    padding: 20px 0px !important; } }
+
+@media screen and (max-width: 576px) {
+  .bg-01::after {
+    width: 0 !important; } }
+

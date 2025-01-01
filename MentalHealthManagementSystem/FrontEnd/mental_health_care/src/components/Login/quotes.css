@@ -1,0 +1,50 @@
+@import url('http://fonts.cdnfonts.com/css/pirateship');
+#ct{height:300px; width:1070px;border:1px solid #f1c40f;margin: 550px auto;text-align:center;position:relative;color:#fff;padding:15px;}
+#span{
+  background:#313e4f;
+  color:#f1c40f;
+  padding:0 10px;
+  font-size:20px;
+  position:relative; 
+  top:-28px;
+}
+.qcorner{height:30px;
+  width:30px;
+  border-radius:50%;
+  border:1px solid #fff;
+  transform:rotate(-45deg);  
+  position:absolute;
+  background:#313e4f;
+}
+
+#left_top{
+  top:-16px;
+  left:-16px;
+  border-color:transparent transparent #f1c40f transparent;
+}
+#right_top{
+  top:-16px;
+  right:-16px;
+  border-color:transparent transparent transparent #f1c40f;
+}
+#left_bottom{
+  bottom:-16px;
+  left:-16px;
+  border-color:transparent #f1c40f transparent transparent ;
+}
+#right_bottom{
+  bottom:-16px;
+  right:-16px;
+  border-color:#f1c40f transparent transparent transparent;
+}
+p{padding-top:13px;font-size:18px}
+
+.qfont{
+    font-family: 'pirateship', sans-serif;
+    font-size: larger;
+                                                
+}
+.qufb{
+  margin-bottom: 100px;
+ 
+}
